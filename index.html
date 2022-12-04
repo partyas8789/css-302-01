@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .maincontainer{
+            width:100vw;
+            height: 100vh;
+            /* border: 2px solid red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+            /* background-color: rgb(193, 131, 131); */
+        }
+        .middlecontainer{
+            height: 90%;
+            width: 40%;
+            /* border: 2px solid red; */
+            background-color: #ddb786;
+        }
+        .upperpart{
+            width:100%;
+            height: 15%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        h1{
+            /* border: 2px solid red; */
+            font-size: 40px;
+            font-family: Impact, serif;
+        }
+        h2{
+            font-size: 30px;
+            font-family: Impact, serif;
+        }
+        .coffee{
+            width:100%;
+            height: 10%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        .coffeeitem{
+            width:100%;
+            height: 25%;
+            /* border: 2px solid rgb(20, 19, 19); */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-right: 1rem;
+            padding-left: 1rem;
+        }
+        
+        .rate{
+            display: flex;
+            flex-direction:row;
+            justify-content: space-between;
+        }
+        .desserts{
+            width:100%;
+            height: 10%;
+            /* border: 2px solid red; */
+            width:100%;
+            height: 10%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .dessertitem{
+            width:100%;
+            height: 25%;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            /* border: 2px solid red; */
+        }
+        .lowerpart{
+            width:100%;
+            height: 15%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid red; */
+        }
+        hr{
+            border: 2px solid rgb(171, 40, 40);
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="middlecontainer">
+            <div class="upperpart">
+                <h1>CAMPER CAFE</h1>
+                <i><P font>Est. 2020</P></i>
+                <hr>
+            </div>
+            <div class="coffee">
+                <h2>Coffee</h2>
+                <i class="fa fa-coffee" aria-hidden="true"></i>
+                
+            </div>
+            
+            <div class="coffeeitem">
+                <div class="para">
+                    <div class="rate">
+                        <p>French Vanila</p>
+                        <p>3.00</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <div class="rate">
+                        <p>Caramel Macchiato</p>
+                        <p>3.75</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <div class="rate">
+                        <p>Pumpkin Spice</p>
+                        <p>3.50</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <div class="rate">
+                        <p>HazeInut</p>
+                        <p>4.00</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <div class="rate">
+                        <p>Mocha</p>
+                        <p>4.50</p>
+                    </div>
+                </div>
+            </div>
+            <div class="desserts">
+                <h1>Desserts</h1>
+                <i class="fa fa-cutlery" aria-hidden="true"></i>
+                
+            </div>
+            <div class="dessertitem">
+                <div class="para">
+                    <div class="rate">
+                        <p>Donut</p>
+                        <p>1.50</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <div class="rate">
+                        <p>Cherry Pie</p>
+                        <p>2.75</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <div class="rate">
+                        <p>Cheesecake</p>
+                        <p>3.00</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <div class="rate">
+                        <p>Cinnamon Roll</p>
+                        <p>2.50</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lowerpart">
+                <hr>
+                <u>Visit our website</u>
+                <p>123 Free Code Camp Drive</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
